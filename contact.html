@@ -2,7 +2,8 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Flomatexs Construction Limited</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Multiservicios Pineda</title>
     <link rel="icon" href="img/flomatexs.png" type="image/x-icon">
 
     <!-- Favicon -->
@@ -120,8 +121,22 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="js/include.js"></script>
+   <!-- Librerías JS (antes de main.js) -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+<script src="lib/slick/slick.min.js"></script>
+
+<!-- Carga de includes (inyecta Header/Footer) -->
+<script src="js/include.js"></script>
+
+<!-- Tu script principal (con los parches mobile) -->
+<script src="js/main.js?v=4" defer></script>
+
   </body>
 </html>
