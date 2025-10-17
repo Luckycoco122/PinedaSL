@@ -75,7 +75,7 @@ a:focus {
 /********** Top Bar **********/
 .top-bar{
   background:#fdbe33;
-  min-height:90px;              /* mejor que height fijo */
+  min-height:20px;              /* mejor que height fijo */
   display:flex;
   align-items:center;           /* centra verticalmente */
 }
@@ -2184,5 +2184,6 @@ a:focus {
         text-align: center;
     }
 }
+
 
 
